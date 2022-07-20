@@ -9,7 +9,7 @@ function UseRefHook(){
 
 
      useEffect(()=>{
-        //Use case 1: imperatively access dom nodes by storing its reference
+        //Use case 1: imperatively access DOM nodes by storing its reference
         inputRef.current.focus();
     },[])
 
